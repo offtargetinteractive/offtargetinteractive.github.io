@@ -1,0 +1,49 @@
+/* style.css */
+body {
+    font-family: sans-serif; /* Use a common font */
+    margin: 20px; /* Add some margin around the content */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+h1 {
+    color: #007bff; /* Blue heading */
+    text-align: center; /* Center the heading */
+}
+
+h2 {
+    color: #0056b3; /* Darker blue heading */
+}
+
+p {
+    line-height: 1.6; /* Improve readability */
+}
+
+ul {
+    list-style-type: disc; /* Use bullet points for the list */
+    padding-left: 20px; /* Indent the list */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+img {
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image */
+    border: 1px solid #ccc; /* Add a light gray border */
+    padding: 5px;
+    background-color: white;
+}
+
+/* Optional: Style the placeholder text */
+p.image-placeholder { /* Class to target the placeholder paragraph */
+  font-style: italic;
+  color: #777;
+  text-align: center;
+}
